@@ -8,7 +8,10 @@
  */
 
 #import <CoreGraphics/CoreGraphics.h>
+
 #import <Foundation/NSObject.h>
+
+#import <pop/POPDefines.h>
 
 @class POPMutableAnimatableProperty;
 
@@ -126,6 +129,7 @@ extern NSString * const kPOPShapeLayerStrokeEnd;
 extern NSString * const kPOPShapeLayerStrokeColor;
 extern NSString * const kPOPShapeLayerFillColor;
 extern NSString * const kPOPShapeLayerLineWidth;
+extern NSString * const kPOPShapeLayerLineDashPhase;
 
 /**
  Common NSLayoutConstraint property names.
@@ -156,6 +160,7 @@ extern NSString * const kPOPScrollViewContentOffset;
 extern NSString * const kPOPScrollViewContentSize;
 extern NSString * const kPOPScrollViewZoomScale;
 extern NSString * const kPOPScrollViewContentInset;
+extern NSString * const kPOPScrollViewScrollIndicatorInsets;
 
 /**
  Common UITableView property names.
